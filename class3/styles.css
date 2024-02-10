@@ -1,0 +1,36 @@
+
+.navbar {
+    border: 1px solid black;
+    background-color: #FEFBF6;
+}
+
+.navbar-content {
+    
+}
+
+.navbar-content li {
+    border: 1px solid blue;
+    /* width: 40px; */
+    border-radius: 10px;
+    display: inline;
+    margin: 0px 20px;
+    padding: 5px;
+    background-color: #ECB159;
+}
+
+.navbar-content li a {
+    text-decoration: none;
+}
+
+.navbar-content l1 a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    color: #81689D;
+}
+
