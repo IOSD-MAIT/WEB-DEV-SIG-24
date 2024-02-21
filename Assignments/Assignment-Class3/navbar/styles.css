@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navlist{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+nav {
+    background-color: #00BCD4;
+
+ 
+}
+nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px;
+    color:aliceblue
+    ;
+}
+nav a:hover{
+    color: blue;
+}
+.navlist p{
+    font-size:5rem;
+    color:aliceblue
+    ;
+}
+.container{
+    background-color:aliceblue;
+    
+
+    width:fit-content;
+}
+section{
+    padding: 10px;
+    margin:10px;
+}
+main{
+    color: #00BCD4;
+}
+.premium{
+    background-color: #00BCD4;
+}
+article{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.premium{
+    background:#00BCD4;
+    color: aliceblue;
+    animation-name: premium;
+    animation: premium 5s linear 0s 1 forwards;
+   
+    
+}
+@keyframes premium {
+    from{
+          width: 0%;
+    }
+    to{
+          width: 100%;
+    }
+    
+}
+.about,.contact{
+    color: #00BCD4;
+}
+#head{
+    background-color: #00BCD4;
+    color: aliceblue;
+}
