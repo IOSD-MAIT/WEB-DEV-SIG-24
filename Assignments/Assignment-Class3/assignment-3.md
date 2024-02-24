@@ -1,6 +1,6 @@
 # Web-Development SIG 2023-2024
 
-##Make a simple website.
+## Make a simple website.
 We discussed more about CSS properties and box model of the CSS.
 Your assignment this week is to make a simple website with following pages:-
 1.) Home page
